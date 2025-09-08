@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+const key = ''; /// get ur apikey on official api.
 const config = {
   name: "simteach",
   version: "1.0.0"
@@ -17,7 +17,7 @@ async function onCall({ message, args }) {
   const [question, answer] = input;
 
   try {
-    const { data } = await axios.get(`https://simsimi-api-pro.onrender.com/teach?ask=${encodeURIComponent(question)}&ans=${encodeURIComponent(answer)}`);
+    const { data } = await axios.get(`https://simsimi-api-pro.onrender.com/teach?ask=${encodeURIComponent(question)}&ans=${encodeURIComponent(answer)}&apikey${key}`);
 
     if (data.teachResponse?.respond === "This answer already exists for the given question!") {
       return message.reply("⚠️ This answer already exists!");
