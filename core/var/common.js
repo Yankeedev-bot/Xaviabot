@@ -1,6 +1,6 @@
 import fs from 'fs';
 import axios from 'axios';
-import canvas from 'canvas';
+import canvas from '@napi-rs/canvas';
 import FormData from 'form-data';
 import { randomInt } from 'crypto';
 

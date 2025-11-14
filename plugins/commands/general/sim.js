@@ -3,8 +3,7 @@ import axios from 'axios';
 const key = ''; /// get your key on official API to make it works.
 
 const config = {
-  name: "sim",
-  credits:"renzmansueto"
+  name: "sim"
 }
 const reply = async function({eventData, message}) {
   if(message.senderID !== eventData.author) return message.reply("[!] This session is already occupied by user: " + eventData.author);

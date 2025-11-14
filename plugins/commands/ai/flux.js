@@ -11,7 +11,7 @@ const config = {
     name: "flux",
     version: "1.0.0",
     permissions: 0,
-    credits: "chill, api ko lang",
+    credits: "churchill",
     description: "Generate an image with a prompt using rapido's API",
     usage: "[prompt]",
     cooldown: 3,
@@ -19,7 +19,7 @@ const config = {
 };
 
 async function onCall({ message, args, data }) {
-    const prefix = data?.thread?.data?.prefix || global.config.PREFIX; // Get the prefix from thread data or global config
+    const prefix = data?.thread?.data?.prefix || global.config.PREFIX;
 
     if (args.length === 0) {
         return message.reply(`Please provide a prompt for the image generation.\n\nExample: ${prefix}flux cat`);

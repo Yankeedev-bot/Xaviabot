@@ -1,4 +1,4 @@
-import Canvas from 'canvas';
+import Canvas from '@napi-rs/canvas';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 
