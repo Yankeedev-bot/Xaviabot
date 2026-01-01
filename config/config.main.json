@@ -19,16 +19,16 @@
         "userAgent": "ZmFjZWJvb2tleHRlcm5hbGhpdC8xLjEgKCtodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9leHRlcm5hbGhpdF91YXRexHQucGhpKQ==",
         "online": true,
         "autoMarkDelivery": false,
-        "autoMarkRead": false
+        "autoMarkRead": true,
     },
     "MODERATORS": [
-        "YOUR_UID_HERE"
+        "61572476705473"
     ],
     "ABSOLUTES": [
-        "YOUR_UID_HERE"
+        "61572476705473"
     ],
-    "NAME": "Xavia (Educ Bot)",
-    "PREFIX": "/",
-    "timezone": "Asia/Manila",
+    "NAME": "★💮✨TRØN ARËS BØT✨💮★",
+    "PREFIX": "∆",
+    "timezone": "ivory coast/Abidjan",
     "REFRESH": "43200000"
 }
